@@ -17,16 +17,18 @@ let person = {
 
 let numbers = [1, 2, 3, 4, 5];
 
-let sum = number + 5;
-let product = number * 2;
-let remainder = number % 3;
+let tambah = number + 5;
+let kali = number * 2;
+let bagi = number / 2;
 
 let isEqual = number === 10;
 let isGreater = number > 5;
+let isEqual2 = number === 5;
+let isGreater2 = number > 20;
 
 console.log(`Nama: ${name}, Usia: ${age}, Kota: ${city}`);
 console.log(
-  "Tipe Data Primitif:",
+  "\nTipe Data Primitif:",
   number,
   bigIntNum,
   isMarried,
@@ -36,16 +38,20 @@ console.log(
 );
 console.log("Tipe Data Non-Primitif:", person, numbers);
 console.log(
-  "Aritmatika -> Sum:",
-  sum,
-  ", Product:",
-  product,
-  ", Remainder:",
-  remainder
+  "\nAritmatika: \nPertambahan 10 + 5 =:",
+  tambah,
+  "\nPerkalian 10 * 2 =:",
+  kali,
+  "\nPembagian 10 / 2 =:",
+  bagi
 );
 console.log(
-  "Perbandingan -> Is Equal to 10?",
+  "\nPerbandingan: \n10 sama dengan 10?",
   isEqual,
-  ", Is Greater than 5?",
-  isGreater
+  "\n10 lebih besar dari 5?",
+  isGreater,
+  "\n10 sama dengan 5?",
+  isEqual2,
+  "\n10 lebih besar dari 20?",
+  isGreater2
 );
