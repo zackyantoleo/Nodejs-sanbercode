@@ -13,7 +13,7 @@ let person = {
   firstName: "Athif",
   lastName: "Zakiyanto",
   age: 25,
-}; // Object
+};
 
 let numbers = [1, 2, 3, 4, 5];
 

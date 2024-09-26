@@ -1,4 +1,3 @@
-// Program menggunakan forEach untuk mencetak angka 1 sampai 10
 let numbers = Array.from({ length: 10 }, (_, i) => i + 1);
 
 numbers.forEach((number) => {
