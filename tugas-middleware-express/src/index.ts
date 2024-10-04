@@ -6,7 +6,6 @@ const PORT = 3000;
 function init() {
   const app = express();
 
-  // Rute untuk upload file tunggal
   app.post("/upload/single", single, (req: Request, res: Response) => {
     res.status(200).json({
       message: "File uploaded successfully",
