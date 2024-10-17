@@ -1,16 +1,11 @@
-/*
-# src/utils/database.ts
-*/
 import mongoose from "mongoose";
 import { DATABASE_URL } from "./env";
 
-const connect = async () => {
+const contt = async () => {
   try {
     await mongoose.connect(DATABASE_URL, {
       dbName: "Cluster0",
     });
-    console.log("Database connected");
-
     return "Database connected";
   } catch (error) {
     console.log(error);
@@ -18,5 +13,6 @@ const connect = async () => {
     return error;
   }
 };
+console.log(contt);
 
-export default connect;
+export default contt;
